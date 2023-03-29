@@ -7,6 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { QuienesSomosComponent } from './quienes-somos/quienes-somos.component';
 import { EstablecimientosComponent } from './establecimientos/establecimientos.component';
+import { EditarEstablecimientoComponent } from './editar-establecimiento/editar-establecimiento.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { EstablecimientosComponent } from './establecimientos/establecimientos.c
     HeaderComponent,
     FooterComponent,
     QuienesSomosComponent,
-    EstablecimientosComponent
+    EstablecimientosComponent,
+    EditarEstablecimientoComponent
   ],
   imports: [
     BrowserModule,
