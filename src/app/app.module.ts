@@ -8,6 +8,8 @@ import { FooterComponent } from './footer/footer.component';
 import { QuienesSomosComponent } from './quienes-somos/quienes-somos.component';
 import { EstablecimientosComponent } from './establecimientos/establecimientos.component';
 import { EditarEstablecimientoComponent } from './editar-establecimiento/editar-establecimiento.component';
+import { CanchasComponent } from './canchas/canchas.component';
+import { EditarCanchaComponent } from './editar-cancha/editar-cancha.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { EditarEstablecimientoComponent } from './editar-establecimiento/editar-
     FooterComponent,
     QuienesSomosComponent,
     EstablecimientosComponent,
-    EditarEstablecimientoComponent
+    EditarEstablecimientoComponent,
+    CanchasComponent,
+    EditarCanchaComponent
   ],
   imports: [
     BrowserModule,
