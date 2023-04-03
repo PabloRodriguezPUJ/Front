@@ -11,6 +11,7 @@ import { EditarEstablecimientoComponent } from './editar-establecimiento/editar-
 import { CanchasComponent } from './canchas/canchas.component';
 import { EditarCanchaComponent } from './editar-cancha/editar-cancha.component';
 import { ReservasComponent } from './reservas/reservas.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ReservasComponent } from './reservas/reservas.component';
     EditarEstablecimientoComponent,
     CanchasComponent,
     EditarCanchaComponent,
-    ReservasComponent
+    ReservasComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,

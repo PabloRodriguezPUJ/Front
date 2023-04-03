@@ -7,9 +7,10 @@ import { EditarEstablecimientoComponent } from './editar-establecimiento/editar-
 import { CanchasComponent } from './canchas/canchas.component';
 import { EditarCanchaComponent } from './editar-cancha/editar-cancha.component';
 import { ReservasComponent } from './reservas/reservas.component';
+import { LoginComponent } from './login/login.component';
 
 const routes: Routes = [
-  { path: '', component: HeaderComponent },
+  { path: ' ', component: LoginComponent },
   { path: 'quienes-somos', component: QuienesSomosComponent },
   { path: 'establecimientos', component: EstablecimientosComponent },
   { path: 'editar-establecimiento', component: EditarEstablecimientoComponent },
