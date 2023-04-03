@@ -15,9 +15,9 @@ const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'quienes-somos', component: QuienesSomosComponent },
   { path: 'establecimientos', component: EstablecimientosComponent },
-  { path: 'editar-establecimiento', component: EditarEstablecimientoComponent },
+  { path: 'establecimientos/editar-establecimiento', component: EditarEstablecimientoComponent },
   { path: 'canchas', component: CanchasComponent },
-  { path: 'editar-cancha', component: EditarCanchaComponent },
+  { path: 'canchas/editar-cancha', component: EditarCanchaComponent },
   { path: 'reservas', component: ReservasComponent },
 ];
 @NgModule({
