@@ -8,9 +8,11 @@ import { CanchasComponent } from './canchas/canchas.component';
 import { EditarCanchaComponent } from './editar-cancha/editar-cancha.component';
 import { ReservasComponent } from './reservas/reservas.component';
 import { LoginComponent } from './login/login.component';
+import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
-  { path: ' ', component: LoginComponent },
+  { path: '', component: HomeComponent },
+  { path: 'login', component: LoginComponent },
   { path: 'quienes-somos', component: QuienesSomosComponent },
   { path: 'establecimientos', component: EstablecimientosComponent },
   { path: 'editar-establecimiento', component: EditarEstablecimientoComponent },

@@ -16,7 +16,7 @@ header {
   
   .logo h1 {
     margin: 0;
-    font-size: 24px;
+    font-size: 20px;
   }
   
   nav ul {
@@ -73,32 +73,21 @@ header {
     z-index: 1;
   }
   
-
-   /*
+/*
+ 
   .user-box {
-    position: fixed;
-    top: 10px;
-    right: 10px;
-    display: flex;
+    position:absolute;
     align-items: center;
-    padding: 8px;
+    padding: 15px;
     border-radius: 5px;
     background-color: #fff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   }
   
   
-  .user-box img {
-    width: 30px;
-    height: 30px;
-    margin-right: 10px;
-    border-radius: 50%;
-  }
+ */
   
-  .user-box span {
-    font-size: 14px;
-    font-weight: bold;
-  }
   
-  */
+  
+  
 
