@@ -11,4 +11,7 @@ h1 {
     padding: 0 50px;
     text-align: justify;
   }
-  
+  body{
+    background-image: url('fondo.jpg');
+    background-size: cover;
+  }
