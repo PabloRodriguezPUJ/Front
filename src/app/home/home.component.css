@@ -4,14 +4,60 @@ h1 {
     margin-top: 50px;
   }
   
-  p {
+p {
     font-size: 24px;
     line-height: 1.5;
     margin: 30px 0;
     padding: 0 50px;
     text-align: justify;
   }
-  body{
-    background-image: url('fondo.jpg');
-    background-size: cover;
-  }
+.page_principal h1, p{
+  text-align: center;
+}
+.titulo{
+  margin-left: 270px;
+  text-align: center;
+  width: 1000px;
+  height: 120px;
+  background-color: #446b48;
+}
+.medio{
+  margin-left: 220px;
+  text-align: center;
+  width: 1100px;
+  height: 200px;
+  background-color: #7e8c48;
+  
+  
+}
+body{
+  text-align: center;
+}
+
+.tipos_usuario{
+ margin-bottom: 10px;
+ margin-right: 50px;
+}
+.tipos_usuario h2{
+  color: #ffffff;
+ }
+.canchas{
+  display: inline-block;
+  flex: 1;
+  width: 400px;
+  height: 200px;
+  background-color: #2e2e2e;
+}
+.espacio{
+  display: inline-block;
+  background-color: #ffffff;
+  width: 150px;
+  height: 120px;
+}
+.establecimiento{
+  display: inline-block;
+  flex: 1;
+  width: 400px;
+  height: 200px;
+  background-color: #2e2e2e;
+}
