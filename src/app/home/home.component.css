@@ -1,7 +1,7 @@
 h1 {
     font-size: 48px;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 0px;
   }
   
 p {
@@ -47,17 +47,14 @@ body{
   width: 400px;
   height: 200px;
   background-color: #2e2e2e;
+  margin-top: 150px;
 }
-.espacio{
-  display: inline-block;
-  background-color: #ffffff;
-  width: 150px;
-  height: 120px;
-}
+
 .establecimiento{
   display: inline-block;
   flex: 1;
   width: 400px;
   height: 200px;
   background-color: #2e2e2e;
+  margin-left: 150px;
 }
