@@ -24,13 +24,13 @@ table {
     cursor: pointer;
   }
   .nuevo-establecimiento-btn {
+    position: relative;
     width: 30%;
     display:flex;
-    margin-left: 590px;
-    text-align: center;
-    align-items: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     justify-content: center;
-    margin-bottom: 50px;
     margin-top: 30px;
     
   }

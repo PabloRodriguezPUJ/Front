@@ -1,7 +1,9 @@
 table {
-    margin: 0 auto;
+    position: relative;
     max-width: 800px;
-    padding-top: 100px;
+    padding-top: 50px;
+    left: 10%;
+    
   }
   
   th, td {
@@ -40,3 +42,15 @@ table {
     max-width: 800px;
     padding-top: 50px;
   }
+.btn-success{
+  position: relative;
+  left: 27%;
+  top: 50%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.messi{
+  float: left;
+  height: 400px;
+  width: 350px;
+}
