@@ -2,7 +2,7 @@ table {
     position: relative;
     max-width: 800px;
     padding-top: 50px;
-    left: 10%;
+    left: 0%;
     
   }
   
@@ -44,7 +44,7 @@ table {
   }
 .btn-success{
   position: relative;
-  left: 27%;
+  left: 15%;
   top: 50%;
   margin-top: 100px;
   margin-bottom: 100px;
@@ -52,5 +52,5 @@ table {
 .messi{
   float: left;
   height: 400px;
-  width: 350px;
+  width: 500px;
 }
