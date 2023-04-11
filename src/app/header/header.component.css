@@ -11,6 +11,7 @@ header {
   color: #FFFFFF;
   font-size: 36px;
   margin: 0;
+  font: oblique bold 200% cursive;
 }
 
 nav ul {
@@ -34,8 +35,8 @@ nav ul li a:hover {
 
 nav ul li:last-child a {
   margin-left: 20px;
-  background-color: #FFFFFF;
-  color: #000000;
+  background-color: #000000;
+  color: #FFFFFF;
   border-radius: 5px;
   padding: 10px 20px;
 }

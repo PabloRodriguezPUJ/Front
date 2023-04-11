@@ -1,7 +1,8 @@
 table {
     margin: 0 auto;
+    margin-left: 37%;
     max-width: 800px;
-    padding-top: 100px;
+    padding-top: 200px;
     
   }
   
@@ -25,14 +26,19 @@ table {
   }
   .nuevo-establecimiento-btn {
     position: relative;
-    width: 30%;
+    width: 20%;
     display:flex;
-    left: 50%;
+    left: 30%;
     top: 50%;
     transform: translate(-50%, -50%);
     justify-content: center;
     margin-top: 30px;
+    margin-bottom: 300px;
     
+  }
+  .calco1{
+    float: left;
+    margin-top: 150px;
   }
 
 
@@ -45,7 +51,16 @@ table {
   }
   .tabla1{
     border: 1px solid #000000;
+    
   }
   body{
     margin: 0%;
   }
+  
+.calco3{
+  float: right;
+  top: 50%;
+  margin-top: 5%;
+  height: 432px;
+  width: 410px;
+}

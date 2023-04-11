@@ -4,6 +4,8 @@
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 5px;
+    margin-top: 200px;
+    margin-bottom: 200px;
   }
   
   .form-group {
@@ -32,5 +34,15 @@
     border: none;
     color: #fff;
     border-radius: 5px;
+  }
+  .calco2{
+    float: left;
+    margin-top: -3%;
+  }
+  .calco4{
+    float: right;
+    margin-top: -3%;
+    height: 400px;
+    width: 400px;
   }
   
