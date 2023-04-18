@@ -1,61 +1,54 @@
-h1 {
-    font-size: 48px;
-    text-align: center;
-    margin-top: 0px;
-  }
-  
-p {
-    font-size: 24px;
-    line-height: 1.5;
-    margin: 30px 0;
-    padding: 0 50px;
-    text-align: justify;
-  }
-.page_principal h1, p{
-  text-align: center;
-}
-.titulo{
-  margin-left: 270px;
-  text-align: center;
-  width: 1000px;
-  height: 120px;
-  background-color: #446b48;
-}
-.medio{
-  margin-left: 220px;
-  text-align: center;
-  width: 1100px;
-  height: 200px;
-  background-color: #7e8c48;
-  
-  
-}
-body{
-  text-align: center;
-  margin: 0%;
+/* Estilos generales */
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
-.tipos_usuario{
- margin-bottom: 10px;
- margin-right: 50px;
-}
-.tipos_usuario h2{
-  color: #ffffff;
- }
-.canchas{
-  display: inline-block;
-  flex: 1;
-  width: 400px;
-  height: 200px;
-  background-color: #2e2e2e;
-  margin-top: 150px;
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
 }
 
-.establecimiento{
-  display: inline-block;
-  flex: 1;
-  width: 400px;
-  height: 200px;
-  background-color: #2e2e2e;
-  margin-left: 150px;
+a {
+	color: #333;
+	text-decoration: none;
 }
+
+ul {
+	
+	list-style-type: square;
+	
+	list-style-position: inside;
+	
+}
+li{
+	list-style-type: upper-roman;
+}
+
+/* Estilos del encabezado */
+
+
+
+
+nav a:hover {
+	color: #FF8C00;
+}
+
+/* Estilos del hero */
+
+.hero {
+	background-image: url('/assets/imagenes/fondo.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
