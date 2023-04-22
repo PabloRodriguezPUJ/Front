@@ -1,4 +1,8 @@
 .reservas-container {
+  background-image: url('/assets/imagenes/fondoCancha2.jpg');
+  background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
     display: flex;
     justify-content: space-between;
   }
