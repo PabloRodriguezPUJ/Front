@@ -1,9 +1,9 @@
-table {
+.table {
     margin: 0 auto;
-    margin-left: 37%;
-    max-width: 800px;
-    padding-top: 200px;
-    
+    left: 21%;
+    margin-top: 10%;
+    max-width: 600px;
+
   }
   
   th, td {
@@ -36,7 +36,7 @@ table {
   }
   .calco1{
     float: left;
-    margin-top: 150px;
+    
   }
 
 
@@ -47,18 +47,15 @@ table {
   button + button {
     margin-left: 5px;
   }
-  .tabla1{
-    border: 1px solid #000000;
-    
-  }
+
   body{
     margin: 0%;
   }
   
 .calco3{
   float: right;
-  top: 50%;
-  margin-top: 5%;
-  height: 432px;
-  width: 410px;
+
+
+  height: 332px;
+  width: 310px;
 }

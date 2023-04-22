@@ -18,12 +18,12 @@
 }
 
 .container {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(78, 135, 67);
     max-width: 600px;
     margin: 0 auto;
     border: 1px solid #220e0e;
     padding: 20px;
-    height: 250px;
+    height: 400px;
     width: 550px;
   
    
@@ -42,5 +42,9 @@
     padding: 20px;
     max-width: 600px;
     margin: 0 auto;
+  }
+
+  .titulo{
+    color: aliceblue;
   }
   
