@@ -13,6 +13,7 @@ import { EditarCanchaComponent } from './editar-cancha/editar-cancha.component';
 import { ReservasComponent } from './reservas/reservas.component';
 import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
+import { FullCalendarModule } from '@fullcalendar/angular';
 
 
 
@@ -32,7 +33,8 @@ import { HomeComponent } from './home/home.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FullCalendarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
