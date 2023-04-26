@@ -1,0 +1,9 @@
+export class Cancha{
+    public id: number|undefined;
+    constructor(
+        public nombre: string,
+        public nombre_id_establecimiento: bigint
+    ){
+        
+    }
+}

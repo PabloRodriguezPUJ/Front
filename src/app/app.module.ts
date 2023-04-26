@@ -14,6 +14,7 @@ import { ReservasComponent } from './reservas/reservas.component';
 import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
 import { FullCalendarModule } from '@fullcalendar/angular';
+import { NgImageSliderModule } from 'ng-image-slider';
 
 
 
@@ -30,11 +31,13 @@ import { FullCalendarModule } from '@fullcalendar/angular';
     ReservasComponent,
     LoginComponent,
     HomeComponent
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FullCalendarModule
+    FullCalendarModule,
+    NgImageSliderModule
   ],
   providers: [],
   bootstrap: [AppComponent]
