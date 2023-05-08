@@ -1,8 +1,32 @@
+.todo{
+  background-image: url('/assets/imagenes/fondoCancha.jpg');
+  background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+  height: 700px;
+}
+.container2{
+  height: 23%;
+  display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+  
+}
+.container2 h2{
+  font-size: 200%;
+}
+
 .container {
+  background-color: rgb(78, 135, 67);
     max-width: 600px;
     margin: 0 auto;
     border: 1px solid #220e0e;
     padding: 20px;
+    height: 400px;
+    width: 550px;
+  
+   
    
   }
   
@@ -18,5 +42,9 @@
     padding: 20px;
     max-width: 600px;
     margin: 0 auto;
+  }
+
+  .titulo{
+    color: aliceblue;
   }
   

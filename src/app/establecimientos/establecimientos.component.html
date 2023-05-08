@@ -1,34 +1,47 @@
-<table>
-    <thead>
-      <tr>
-        <th>Nombre</th>
-        <th>Teléfono</th>
-        <th>Dirección</th>
-        <th> </th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Establecimiento 1</td>
-        <td>555-1234</td>
-        <td>Calle 1 #123</td>
-        <td>
-          <button routerLink="/establecimientos/editar-establecimiento">Editar</button>
-          <button>X</button>
-        </td>
-      </tr>
-      <tr>
-        <td>Establecimiento 2</td>
-        <td>555-5678</td>
-        <td>Calle 2 #456</td>
-        <td>
-          <button routerLink="/establecimientos/editar-establecimiento">Editar</button>
-          <button>X</button>
-        </td>
-      </tr>
-      <!-- más filas aquí -->
-    </tbody>
-  </table>
-  
-  <button class="nuevo-establecimiento-btn"  >Nuevo Establecimiento</button>
-  
+<body >
+  <img class="calco1" src="../assets/imagenes/calcomania1.png" alt="">
+  <img class="calco3" src="../assets/imagenes/calcomania3.png" alt="">
+
+    <table class="table table-secondary table-striped table-hover ">
+
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Teléfono</th>
+          <th>Dirección</th>
+          <th> </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr >
+          <td>Establecimiento 1</td>
+          <td>555-1234</td>
+          <td>Calle 1 #123</td>
+          <td>
+            <button routerLink="/establecimientos/editar-establecimiento">Editar  <i class="fa-solid fa-pen-to-square"></i></button>
+            <button>X</button>
+          </td>
+        </tr>
+        <tr>
+          <td>Establecimiento 2</td>
+          <td>555-5678</td>
+          <td>Calle 2 #456</td>
+          <td>
+            <button routerLink="/establecimientos/editar-establecimiento">Editar  <i class="fa-solid fa-pen-to-square"></i></button>
+            <button>X</button>
+          </td>
+        </tr>
+        <!-- más filas aquí -->
+      </tbody>
+
+      
+    </table>
+    
+  <button routerLink="/establecimientos/editar-establecimiento"  class="nuevo-establecimiento-btn"  >Nuevo Establecimiento</button>
+   
+
+ 
+
+   
+
+</body>

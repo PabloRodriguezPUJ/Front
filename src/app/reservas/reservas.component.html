@@ -3,7 +3,8 @@
       <h2>Reservar</h2>
       <div>
         <label>Fecha:</label>
-        <input type="date">
+        <full-calendar [options]="calendarOptions"></full-calendar>
+  
       </div>
       <div>
         <label>Hora:</label>
@@ -31,10 +32,11 @@
       </div>
       <div>
         <label>Hora de Reserva:</label>
-        <input type="datetime-local">
+        <full-calendar [options]="calendarOptions"></full-calendar>
       </div>
       <button>Consultar</button>
       <button>Eliminar</button>
     </div>
+
   </div>
   

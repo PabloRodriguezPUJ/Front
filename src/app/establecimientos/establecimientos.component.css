@@ -1,7 +1,9 @@
-table {
+.table {
     margin: 0 auto;
-    max-width: 800px;
-    padding-top: 100px;
+    left: 21%;
+    margin-top: 10%;
+    max-width: 600px;
+
   }
   
   th, td {
@@ -10,10 +12,8 @@ table {
     border-bottom: 1px solid #ddd;
   }
   
-  th {
-    background-color: #f2f2f2;
-  }
-  
+
+ 
   button {
     padding: 5px 10px;
     background-color: #4CAF50;
@@ -23,8 +23,22 @@ table {
     cursor: pointer;
   }
   .nuevo-establecimiento-btn {
-    width: 80%;
+    position: relative;
+    width: 20%;
+    display:flex;
+    left: 30%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 300px;
+    
   }
+  .calco1{
+    float: left;
+    
+  }
+
 
   button:hover {
     background-color: #3e8e41;
@@ -33,5 +47,15 @@ table {
   button + button {
     margin-left: 5px;
   }
+
+  body{
+    margin: 0%;
+  }
   
-  
+.calco3{
+  float: right;
+
+
+  height: 332px;
+  width: 310px;
+}

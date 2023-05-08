@@ -1,7 +1,12 @@
 <h2 class="Titulo">Lista de Canchas</h2>
 
-<table class="table">
-  <thead>
+
+  <img class="messi" src="../assets/imagenes/lionel1.jpg" alt="" >
+
+
+<table class="table  table-success table-striped  table-hover ">
+  
+  <thead class="">
     <tr>
       <th>Nombre de la Cancha</th>
       <th>Establecimientos</th>
@@ -9,7 +14,7 @@
     </tr>
   </thead>
   <tbody>
-    <tr>
+    <tr >
       <td>Cancha 1</td>
       <td>
         <ul>
@@ -17,23 +22,39 @@
         </ul>
       </td>
       <td>
-        <button class="btn btn-primary" routerLink="/canchas/editar-cancha">Editar</button>
-        <button class="btn btn-danger">Eliminar</button>
+        <button class="btn btn-primary" routerLink="/canchas/editar-cancha">Editar <i class="fa-solid fa-pen-to-square"></i></button>
+        <button class="btn btn-danger">Eliminar <i class="fa-regular fa-delete-right"></i></button>
       </td>
     </tr>
     <tr>
-      <td>Cancha 2</td>
+      <td>Cancha 2 </td>
+      
       <td>
         <ul>
           <li>Establecimiento: Camp Nou</li>
+     
          </ul>
       </td>
       <td>
-        <button class="btn btn-primary" routerLink="/canchas/editar-cancha">Editar</button>
-        <button class="btn btn-danger">Eliminar</button>
+        <button class="btn btn-primary" routerLink="/canchas/editar-cancha">Editar <i class="fa-solid fa-pen-to-square"></i></button>
+        <button class="btn btn-danger">Eliminar <i class="fa-regular fa-delete-right"></i></button>
+      </td>
+    </tr>
+    <tr >
+      <td>Cancha 3</td>
+      <td>
+        <ul>
+          <li>Establecimiento : santiago bernabeu </li>
+        </ul>
+      </td>
+      <td>
+        <button class="btn btn-primary" routerLink="/canchas/editar-cancha">Editar <i class="fa-solid fa-pen-to-square"></i></button>
+        <button class="btn btn-danger">Eliminar <i class="fa-regular fa-delete-right"></i></button>
       </td>
     </tr>
   </tbody>
 </table>
 
-<button class="btn btn-success">Nueva Cancha</button>
+<button routerLink="/canchas/editar-cancha" class="btn-success">Nueva Cancha</button>
+
+<ng-image-slider [images]="imgCollection" #nav></ng-image-slider>

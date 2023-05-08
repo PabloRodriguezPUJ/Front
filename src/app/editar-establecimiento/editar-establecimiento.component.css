@@ -1,15 +1,25 @@
+.cuerpo{
+  background-image: url('/assets/imagenes/fondoCancha3.jpg');
+  background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+  height: 500px;
+}
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
+
   }
   
   .edit-container {
-    border: 2px solid #ccc;
-    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    max-width: 600px;
+    margin: 0 auto;
+    border: 1px solid #220e0e;
     padding: 20px;
-    width: 50%;
+    height: 250px;
+    width: 500px;
   }
   
   .btn-primary {
@@ -37,4 +47,7 @@
     display: flex;
     justify-content: flex-end;
   }
-  
+  h2{
+    text-align: center;
+    font-size: 200%;
+  }

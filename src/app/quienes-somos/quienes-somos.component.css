@@ -5,26 +5,38 @@
 }
 
 .about-section h2 {
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
-.about-section p {
-  margin-top: 30px;
+.about-section p , h3 {
+  margin-top: 20px;
   text-align: center;
+  
 }
 
 .mission-vision-container {
   display: flex;
 }
 
-.mission-container, .vision-container {
+.mission-container, .vision-container, .valores-container{
   width: 200px;
   height: 200px;
   margin-right: 20px;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   padding: 20px;
+  color: #ffffff;
+}
+.mission-container{
+  background-color: #7e8c48;
 }
 
+.vision-container{
+  background-color: #446b48;
+}
+
+.valores-container{
+  background-color: #2e2e2e;
+}
 .bio-section {
   display: flex;
   justify-content: center;
@@ -38,12 +50,21 @@
   width: 200px;
   height: 200px;
   margin-right: 20px;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   padding: 20px;
 }
 
 .bio-container img {
-  width: 50%;
-  height: 50%;
+  width: 60%;
+  height: 70%;
+  margin-left: 60px;
   object-fit: cover;
+  border-radius: 100%;
+  
 }
+.futbolista{
+  float: left;
+  margin-left: auto;
+
+}
+
